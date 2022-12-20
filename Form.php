@@ -24,7 +24,7 @@ if(isset($_POST['username']) && isset($_POST['email']) && isset($_POST['comment'
 
             $directory = getcwd()."/";
             $files = glob($directory ."*");
-            $fileCount = count($files) - 4;
+            $fileCount = count($files) - 5;
 
             $fileName = $fileCount . ".txt";
 
